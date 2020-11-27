@@ -1,0 +1,21 @@
+body{
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+    overflow: hidden;
+}
+svg{
+    position: absolute;
+    align-self: center;
+    width: 50vw;
+    z-index: 5;
+    transform: translateY(20%);
+}
+#contact{
+    background-color: #ffffff;
+    min-width: 45vw;
+    height: 100vh;
+    align-self: center;
+}

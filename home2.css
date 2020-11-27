@@ -158,6 +158,10 @@ nav h3 i{
     height: 120px;
     width: auto;
 }
+a{
+    color: unset;
+    text-decoration: none;
+}
 #what{
     min-width: 100%;
 }

@@ -20,7 +20,7 @@ function scrollFunction() {
 }
 const how = (n) =>{
     var ele = document.getElementById("how");
-    ele.scrollIntoView(false);
+    ele.parentNode.scrollLeft = ele;
     var x=document.getElementById("exploreNav").getElementsByTagName("h3");
     for(var i = 0;i<x.length;i++){
         x[i].style.backgroundColor = "#000000";
@@ -33,7 +33,7 @@ const how = (n) =>{
 }
 const why = (n) =>{
     var ele = document.getElementById("why");
-    ele.scrollIntoView(false);
+    ele.parentNode.scrollLeft = ele.offsetLeft;
     var x=document.getElementById("exploreNav").getElementsByTagName("h3");
     for(var i = 0;i<x.length;i++){
         x[i].style.backgroundColor = "#000000";
@@ -46,7 +46,7 @@ const why = (n) =>{
 }
 const what = (n) =>{
     var ele = document.getElementById("what");
-    ele.scrollIntoView(false);
+    ele.parentNode.scrollLeft = ele.offsetLeft;
     var x=document.getElementById("exploreNav").getElementsByTagName("h3");
     for(var i = 0;i<x.length;i++){
         x[i].style.backgroundColor = "#000000";
